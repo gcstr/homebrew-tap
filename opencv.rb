@@ -1,4 +1,4 @@
-class Opencv41 < Formula
+class Opencv < Formula
   desc "Open source computer vision library"
   homepage "https://opencv.org/"
   url "https://github.com/opencv/opencv/archive/4.1.2.tar.gz"
@@ -6,7 +6,7 @@ class Opencv41 < Formula
 
   bottle do
     root_url "https://homebrew.bintray.com/bottles"
-    sha256 "f53dd07aea7163aff1d30ec9cd6b4d2a49db5362e5845b690284b4f0574f09db" => :catalina
+    sha256 "d892df18b3be262f8f962877a76220ebcdf21adf1b21dbe64a670e1b1f98d271" => :catalina
     sha256 "081a75f753ede6ec73bb27135838fee1b9f15660663cae350e2f37a988498529" => :mojave
     sha256 "4c6deb39336b29bf1bb3f8acd5adbb26a8dc9ac8b56beb991bd720e6ce0b6966" => :high_sierra
   end
